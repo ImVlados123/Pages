@@ -27,13 +27,14 @@ main {
 .container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 960px;
-  margin: 0 auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .block {
-  width: 50%;
-  height: 35vh;
+  width: 49vw;
+  height: 50vh;
   padding: 20px;
   border: 3px solid #ff0000;
   background-color: #fff;
